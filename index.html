@@ -1,10 +1,6 @@
 <html>
 <head>
 	<title>Punto de venta</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
-	<link rel="stylesheet" type="text/css" href="CSS/base.css">
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="header">
@@ -16,12 +12,7 @@
 			<tr>
 				<td>Producto:</td> 
 				<td>
-					<select name="product" id="product">
-						<option value="dor">Doritos</option>
-						<option value="curr">Churritos</option>
-						<option value="fri">Fritos</option>
-						<option value="che">Chetos</option>
-					</select>
+					<div id="selProductos"></div>
 				</td>
 			</tr>
 			<tr>
@@ -48,5 +39,11 @@
 	</form>
 </div>
 <div class="footer"></div>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/base.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="funcionalidad.js"></script>
 </body>
 </html>
